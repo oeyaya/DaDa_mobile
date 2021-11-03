@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>DaDa</title>
+  <link rel="shortcut icon" type="image/x-icon" href="logo.ico">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link href="css/font.css" rel="stylesheet">
+    <link href="css/hd.css" rel="stylesheet">
+
+        <script src="//code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="js/app.js"></script>
+    </head>
+
+<body>
+   <header id="hd">
+           <h1>
+            <a href="index.html">
+             <img src="img/logo.svg" alt="로고">
+            </a>
+           </h1>
+           <div class="back">
+             <a href="sub1_01.html">
+               <div>
+                  &lt; BACK
+               </div>
+             </a>
+           </div>
+           <div class="next">
+             <a href="sub1_03.html">
+               <div>
+                 NEXT &gt;
+               </div>
+             </a>
+           </div>
+       </header>
+
+    <section id="mainBanner">
+      <div id="sub" class="bottomBlock">
+
+       <div class="grid_02 grid">
+       </div>
+       <div class="grid_03 grid">
+       </div>
+       <div class="grid_06 grid">
+       </div>
+       <div class="grid_08 grid">
+       </div>
+
+       <div class="content_02">
+        <div class="title">
+          <div class="titleOpa">
+            Raoul Hausmann
+          </div>
+          <div class="forText title_en">
+            Photomontage
+          </div>
+          <div class="title_kr">
+            포토몽타주
+          </div>
+        </div>
+        <div class="text_bodyWrap">
+        <div class="contentBody_01 text_body">
+          <div class="body_01">
+              20세기 초반의 아방가르드 예술운동인 다다<span class="enStyle">(Dada)</span> 가운데
+              존 하트필드<span class="enStyle">(John Heartfield)</span>, 한나 회흐(Hannah Hoch)</span>,
+            라울 하우스만<span class="enStyle">(Raoul Hausmann)</span> 등은 서구 미술의 전통적인
+            형식을 부정하며,  ‘포토몽타주<span class="enStyle">(Photomontage)</span>’를 통해
+            다양한 사회비판적 시각 이미지를 생산했다.
+          </div>
+          <div class="body_02">
+            여러 장의 사진을 오려내어 새롭게 재구성한 포토몽타주는
+            베를린 다다의 전형적인 특징이다. 
+          </div>
+        </div>
+        <div class="contentBody_02 text_body">
+          <div class="body_01">
+            합성사진. 동일화면 내에 다른 두개 이상의 영상을 합성해서,
+            그 효과에 의해 이질적인 이미지의 충돌을 기대하는 수법.<br>
+            이중 내지 다중 노출에 의해서 촬영시에 시도하는 경우와,
+            확대하는 시점에서 네거를 포개어 인화하는 수법으로 대별된다.
+          </div>
+          <div class="body_02">
+            포토몽타주의 영역은 조각난 사진들을 이용하는 데에만 제한된 것이
+            아니라 사진에 글씨, 색깔, 그림을 덧붙이는 것도 포함된다.<br>
+            포토몽타주는 영화에서 필름을 편집할 때 사용하는 몽타주 수법에
+            대해서 보통 사진에 해당하는 것이므로 ‘정적인 필름’이라 불려왔다 
+          </div>
+        </div>
+        </div>
+
+      </div>
+
+       </div>
+    </section>
+       <div class="reference ifGuid" onclick="clickThis()"></div>
+    <div id="guide_icon" class="reference ifGuid" onclick="clickThis()"></div>
+           <div class="guideCont">
+              <div class="reference ifGuid" onclick="clickThis2()">Back</div>
+               <div class="Cont">
+                   <div class="contTitle"><p>01<span>page</span></p> 다다이즘 작가 중심페이지</div>
+                   <div class="contText"> 라울하우스만이 주로 사용한 기법은 뭐가 있을까?<br>
+               다다이즘의 주 사상인 "우연성", 작품을 만들 때도 우연성에 의하여 제작된다.<br>
+                라울하우스만이 사용한 우연성에 의거한 기법은 뭐가 있을까?
+            <p class="last">이 페이지를 통해 그 질문의 답을 찾아보자.</p></div>
+           </div>
+           </div>
+    
+           <script>
+           function clickThis(){
+             document.querySelector(".guideCont").classList.add('fadeIn');
+             document.querySelector("#guide_icon").style.display = "none";
+           };
+           function clickThis2(){
+             document.querySelector(".guideCont").classList.remove('fadeIn');
+             document.querySelector("#guide_icon").style.display = "block";
+
+           };
+           </script>
+
+</body>
+
+</html>
