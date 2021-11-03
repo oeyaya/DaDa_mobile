@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>DaDa</title>
+  <link rel="shortcut icon" type="image/x-icon" href="logo.ico">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link href="css/font.css" rel="stylesheet">
+    <link href="css/hd.css" rel="stylesheet">
+        <script src="//code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="js/main.js"></script>
+      </head>
+
+
+
+<body>
+  <header id="hd">
+          <h1>
+           <a href="index.html">
+            <img src="img/logo.svg" alt="로고">
+           </a>
+          </h1>
+          <div class="back">
+            <a href="sub6_01.html">
+              <div>
+                 &lt; BACK
+              </div>
+            </a>
+          </div>
+          <div class="next">
+            <a href="sub6_03.html">
+              <div>
+                NEXT &gt;
+              </div>
+            </a>
+          </div>
+      </header>
+       <section class="opaleft opacity"></section>
+    <section id="mainBanner" class="forwork">
+<div id="sub">
+      <div class="content_01">
+        <div class="title">
+          <div class="forText title_en">
+          Photomontage
+          </div>
+          <div class="title_kr">
+          포토몽타주
+          </div>
+        </div>
+        </div>
+        </div>
+
+        <ul>
+            <li><div class="img01_work3 img"></div></li>
+            <li><div class="img02_work3 img"></div></li>
+            <li><div class="img03_work3 img"></div></li>
+            <li><div class="img04_work3 img"></div></li>
+            <li><div class="img05_work3 img"></div></li>
+            <li><div class="img06_work3 img"></div></li>
+            <li><div class="img07_work3 img"></div></li>
+            <li><div class="img08_work3 img"></div></li>
+            <li><div class="img09_work3 img"></div></li>
+        </ul>
+    </section>
+    <section class="oparight opacity"></section>
+<div class="reference ifGuid" onclick="clickThis()"></div>
+    <div id="guide_icon" class="reference ifGuid" onclick="clickThis()"></div>
+           <div class="guideCont">
+              <div class="reference ifGuid" onclick="clickThis2()">Back</div>
+               <div class="Cont">
+                 <div class="contTitle"><p>06<span>page</span></p> 다다이즘 기법 중심페이지</div>
+               <div class="contText"> 다다이즘의 주 사상인 "우연성"에 의거한 기법에 대해 알아보자.<br>
+               포토몽타주를 사용한 작품들은 어떤게 있을까? 
+            <p class="last">이 페이지를 통햏 아상블라주에 대해 구체적으로 알아보자.</p></div>
+           </div>
+           </div>
+    
+           <script>
+           function clickThis(){
+             document.querySelector(".guideCont").classList.add('fadeIn');
+             document.querySelector("#guide_icon").style.display = "none";
+           };
+           function clickThis2(){
+             document.querySelector(".guideCont").classList.remove('fadeIn');
+             document.querySelector("#guide_icon").style.display = "block";
+
+           };
+           </script>
+</body>
+
+
+
+</html>
